@@ -49,7 +49,7 @@ public class BaseDebugActivity extends Activity {
 			moduleName = intent.getStringExtra("moduleTitle");
 		}
 		if (TextUtils.isEmpty(moduleName)) {
-			moduleName = getApplication().getString(R.string.app_name);
+			moduleName = getClass().getSimpleName();
 		}
 
 		((TextView) findViewById(R.id.txtTitleName)).setText(moduleName);
@@ -125,6 +125,14 @@ public class BaseDebugActivity extends Activity {
 		}
 
 		DemoButton.nextColor();
+	}
+
+	public void addView(View view) {
+		mFunctions.addView(view);
+	}
+
+	public void addView(View view, ViewGroup.LayoutParams layoutParams) {
+		mFunctions.addView(view, layoutParams);
 	}
 
 
