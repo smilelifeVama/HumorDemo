@@ -16,6 +16,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 
 public class BaseDebugActivity extends Activity {
 
@@ -151,5 +154,9 @@ public class BaseDebugActivity extends Activity {
             }
         });
     }
+
+    public void showLog(String text) {
+		Log.d("DebugUtil", getClass().getSimpleName() + ": " + text);
+	}
 
 }

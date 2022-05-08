@@ -4,7 +4,7 @@ import android.os.Bundle
 import com.humor.debugactivity.BaseDebugActivity
 import com.humor.debugactivity.DemoButton
 
-class BActivity : BaseDebugActivity(){
+class BActivity : TraceDebugActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         addDemoButtons(DemoButton(this, "start A"){

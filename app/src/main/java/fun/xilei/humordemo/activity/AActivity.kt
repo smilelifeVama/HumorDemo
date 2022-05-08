@@ -1,10 +1,13 @@
 package `fun`.xilei.humordemo.activity
 
 import android.os.Bundle
+import android.widget.TextView
+import androidx.annotation.IntegerRes
 import com.humor.debugactivity.BaseDebugActivity
 import com.humor.debugactivity.DemoButton
+import java.util.*
 
-class AActivity : BaseDebugActivity() {
+class AActivity : TraceDebugActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         addDemoButtons(DemoButton(this, "start A"){

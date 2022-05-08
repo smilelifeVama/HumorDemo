@@ -15,6 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.DataBindingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".activity.FlvTestActivity"
             android:exported="true">
@@ -24,12 +31,10 @@
         <activity android:name=".kotlin.DemoActivity">
 
         </activity>
-        <activity android:name=".activity.AActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".activity.AActivity"
+            android:configChanges="orientation|screenSize"
+            >
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".activity.BActivity"
             android:launchMode="standard">
