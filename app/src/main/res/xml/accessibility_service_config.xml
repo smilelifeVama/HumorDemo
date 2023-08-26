@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:accessibilityFlags="flagRequestTouchExplorationMode|flagDefault|flagRetrieveInteractiveWindows|flagRequestFilterKeyEvents|flagReportViewIds|flagIncludeNotImportantViews|flagRequestEnhancedWebAccessibility"
+    android:canRetrieveWindowContent="true"
+    android:canRequestFilterKeyEvents ="true"
+    android:canPerformGestures="true"
+    android:notificationTimeout="10"
+    android:packageNames="@null"
+    android:description="@string/app_name"
+    tools:ignore="ResourceName" />
+    <!--android:accessibilityFlags="flagIncludeNotImportantViews|flagRequestEnhancedWebAccessibility|flagRetrieveInteractiveWindows"-->
+    <!--android:canRequestEnhancedWebAccessibility="true"-->
+    <!--android:canRequestTouchExplorationMode="true"-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<accessibility-service-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+                       <!--android:accessibilityEventTypes="typeAllMask"-->
+                       <!--android:accessibilityFeedbackType="feedbackAllMask"-->
+                       <!--android:accessibilityFlags="flagRequestFilterKeyEvents"-->
+                       <!--android:canRetrieveWindowContent="true"-->
+                       <!--android:description="@string/service_name"-->
+                       <!--android:notificationTimeout="100"-->
+                       <!--android:canRequestFilterKeyEvents="true"-->
+             <!--android:packageNames="@null"-->
+
+
+    <!--/>-->
+
